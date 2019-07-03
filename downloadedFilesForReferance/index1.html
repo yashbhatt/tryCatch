@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>This is My First HTML</title>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<table border>
+			<thead>
+				<th>S. No</th>
+				<th>Name</th>
+				<td>Email</td>
+				<th>Gender</th>
+				<th colspan="3">Contact</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td><b>1</b></td>
+					<td>Bhavna</td>
+					<td>bhavna@gmail.com</td>
+					<td>Female</td>
+					<td>123456789</td>
+					<td>123456789</td>
+					<td>123456789</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Bhavna</td>
+					<td>bhavna@gmail.com</td>
+					<td>Female</td>
+					<td>123456789</td>
+					<td>123456789</td>
+					<td>123456789</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<hr>
+		<br>
+		<table border>
+			<tr>
+				<th>S. No.</th>
+				<td>1</td>
+			</tr>
+			<tr>
+				<th>Name</th>
+				<td>Bhavna</td>
+			</tr>
+			<tr>
+				<th>Email</th>
+				<td>bhavna@gmail.com</td>
+			</tr>
+			<tr>
+				<th rowspan="2">contact</th>
+				<td>12356789</td>
+			</tr>
+			<tr>
+				<td>98765432</td>
+			</tr>
+		</table>
+		<br>
+		<h1 style="background:skyblue;">Heading 1</h1>
+		<h2 style="background:skyblue;">Heading 2</h2>
+		<h3 style="background:skyblue;"><i>Heading 3</i></h3>
+		<h4 style="background:skyblue;">Heading 4</h4>
+		<h5 style="background:skyblue;">Heading 5</h5>
+		<h6 style="background:skyblue;">Heading 6</h6>
+		
+		<div style="background:skyblue; color:white">
+			<h1>Heading 1</h1>
+			<h2>Heading 2</h2>
+			<h3><i>Heading 3</i></h3>
+			<h4>Heading 4</h4>
+			<h5>Heading 5</h5>
+			<h6>Heading 6</h6>
+		</div>
+		<p>Lorem ipsum dolor sit amet, <span style="color:red;">consectetur adipiscing elit</span>, sed do eiusmod tempor incididunt ut labore et dolore magna
+		aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<button>Submit</button>
+		<button>Submit</button>
+		<button>Submit</button>
+		<button>Submit</button>
+		<a href="index.html">Session 1</a>
+		<a target="_blank" href="index.html">Session 1</a>
+		<a href="https://www.trycatchclasses.com/">Trycatch classes</a>
+		<br>
+		<!-- <img src="1.jpg"> -->
+		<!-- <img src="1.jpg" height="300" width="500"> -->
+		<!-- <img src="images/2.jpg"> -->
+		<!-- <img src="../3.jpg"> -->
+		<!-- <img src="../images/4.jpg"> -->
+		<!-- <img src="4.jpg" alt="Hello World"> -->
+		<br>
+		<form>
+			<label>Name: </label><input type="text" placeholder="Enter Name" value="Bhavna">
+			<br>
+			<br>
+			<label>Email: </label><input type="email" placeholder="Enter Email" >
+			<br>
+			<br>
+			<label>Password: </label><input type="password" placeholder="Enter Password">
+			<br>
+			<br>
+			<label>Age: </label><input type="number" min="10" max="20">
+			<br>
+			<br>
+			<label>Date: </label><input type="date">
+			<br>
+			<br>
+			<label>Gender: </label>
+			<input type="radio" name="gender" >Male
+			<input type="radio" name="gender" checked>Female
+			<br>
+			<br>
+			<label>Course</label>
+			<input type="checkbox" name="course"> HTML
+			<input type="checkbox" name="course"> JS
+			<input type="checkbox" name="course" checked> Wordpress
+			<input type="checkbox" name="course"> Magento
+			<input type="checkbox" name="course"> Angular Js
+			<br>
+			<br>
+			<label>City</label>
+			<select>
+				<option>--Select City--</option>
+				<option>Mumbai</option>
+				<option>Pune</option>
+				<option selected>Chennai</option>
+				<option>Hyd</option>
+				<option>Bang</option>
+			</select>
+			<br>
+			<br>
+			<input type="submit" value="Register">
+			<input type="reset" value="Reset">
+			<input type="button" value="Button">
+			<button>Submit</button>
+			<button type="button">Button</button>
+			<button type="reset">Reset</button>
+		</form>
+		<br>
+		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.229025041763!2d72.85012421437904!3d19.228847952148236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b0d42c95bdf9%3A0x5a3374a957943f4b!2sTryCatch+Classes+%7C+Web+Design+%26+Development%2C+Python%2C+IOS%2C+Android%2C+Selenium+Training+in+Mumbai+UI+UX!5e0!3m2!1sen!2sin!4v1561615744490!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+		<!-- <iframe height="500" width="600" src="index.html"></iframe> -->
+		<iframe height="500" width="600" name="myiframe"></iframe>
+		<a href="index.html" target="myiframe">Click To Load Iframe</a>
+		
+		html entities for special char
+		<h1><span>&copy;</span><span>&reg; </span></h1>
+		<p>&copy;</p>
+		
+	</body>
+</html>

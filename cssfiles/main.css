@@ -1,0 +1,36 @@
+@font-face{
+    font-family: 'Lambo';
+    src: url('../font-files/La\ Macchina.ttf');
+}
+body{
+    background-image: url(../images/lamborghini.jpg);
+    background-repeat: no-repeat;
+    background-size:cover; 
+    margin: 0px;
+}
+.navbar a {
+    font-size :1.5rem;
+    font-family: 'Oswald', sans-serif;
+    padding-right: 9.65%;
+    padding-left: 9.65%;
+    color: white;
+    text-decoration: none;
+}
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgba(255,255,255,0.3);
+}
+button {
+    text-align : center;
+}
+.content {
+    font-family: 'Lambo';
+    font-size: 17px;
+    color: white;
+    margin-top:15%;
+    text-align:center;
+}
+p {
+    font-size:24px;
+}

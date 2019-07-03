@@ -1,0 +1,45 @@
+body{
+	height:1500px;
+	margin:0px;
+}
+
+.bg_css{
+	 /* height:200px;  */
+	/* background:red; */
+	/* background-color:red; */
+	/* background:rgb(0, 147, 221); */
+	/* background:#8BA506; */
+	/* background:url("images/1.jpg"); */
+	/*background-image:url("images/1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover; */
+	/*background-image:url("images/1.jpg");
+	background-repeat:no-repeat;
+	background-color:#DDD; */
+	/* background-position:center; */
+	/* background-position:top right; */
+	/* background-position:bottom right; */
+	/* background-position:bottom left; */
+	background-image:url("images/1.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#f87656;
+	background-attachment:fixed; 
+	/* margin:100px; */
+	/* margin-top:100px;	 */
+	/* margin:100px 50px; */
+	/* margin:100px 50px 20px; */
+	/* margin:100px 20px 50px 30px; */
+	/* padding:20px; */
+	/* padding-left:50px; */
+	/* padding:100px 30px; */
+	/* padding:100px 30px 50px; */
+	padding:100px 30px 50px 20px;
+}
+.bg_css h3{
+	color:darkblue;
+	margin-top:0px
+}
+.bg_css p{
+	margin-top:100px;
+}

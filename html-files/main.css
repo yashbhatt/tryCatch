@@ -1,0 +1,32 @@
+p {
+    border : 2px solid blue;
+}
+
+.blackGold {
+    background-color: gold;
+    text : black;
+    width: 150px;
+}
+
+iframe {
+    display: inline-block;
+}
+
+iframe{
+    display: block;
+    margin-top: 50px;
+}
+
+.bg_css {
+    background-color: #563D7C;
+    /* background or background-color */
+    height: 300px;
+}
+
+body {
+    /* background: url('../images/pepe2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; */
+    /* backgorung had higher priority  */
+    /* background-position : center --> makes the backgroundin the center */
+}
